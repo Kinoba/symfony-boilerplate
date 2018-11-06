@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": [2, "single"],
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "always"],
+        "space-in-parens": ["error", "never"],
+        "space-before-blocks": ["error", "always"],
+        "space-before-function-paren": ["error", "never"],
+        "keyword-spacing": ["error", { "before": true }],
+        "brace-style": ["error", "1tbs", { "allowSingleLine": true }]
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "jquery": true,
+        "mocha": true,
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    }
+}

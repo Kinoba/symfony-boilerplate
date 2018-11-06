@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://xml.phpdox.net/config">
+    <project name="symfony-boilerplate" source="../src" workdir="phpdox">
+        <collector publiconly="false">
+            <include mask="*.php" />
+            <exclude mask="*autoload.php" />
+        </collector>
+
+        <generator output=".">
+            <enrich base="${basedir}/build/logs">
+                <source type="build" />
+                <source type="git">
+                    <history enabled="true" limit="15" />
+                </source>
+                <source type="phploc">
+                    <file name="phploc.xml" />
+                </source>
+                <source type="checkstyle">
+                    <file name="checkstyle-php.xml" />
+                </source>
+                <source type="pmd">
+                    <file name="pmd.xml" />
+                </source>
+                <source type="phpunit">
+                    <coverage path="${basedir}/build/coverage/xml" />
+                </source>
+            </enrich>
+
+            <build engine="html" enabled="true" output="api">
+                <template dir="${phpDox.home}/templates/html" />
+                <file extension="html" />
+            </build>
+        </generator>
+    </project>
+</phpdox>

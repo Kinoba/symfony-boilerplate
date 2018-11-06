@@ -116,6 +116,9 @@
     "ocramius/proxy-manager": {
         "version": "2.1.1"
     },
+    "pdepend/pdepend": {
+        "version": "2.5.2"
+    },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
     },
@@ -124,6 +127,15 @@
     },
     "phpdocumentor/type-resolver": {
         "version": "0.4.0"
+    },
+    "phploc/phploc": {
+        "version": "4.0.1"
+    },
+    "phpmd/phpmd": {
+        "version": "2.6.0"
+    },
+    "phpunit/php-timer": {
+        "version": "2.0.0"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -140,6 +152,15 @@
     "psr/simple-cache": {
         "version": "1.0.1"
     },
+    "sebastian/finder-facade": {
+        "version": "1.2.2"
+    },
+    "sebastian/phpcpd": {
+        "version": "4.1.0"
+    },
+    "sebastian/version": {
+        "version": "2.0.1"
+    },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
         "recipe": {
@@ -147,6 +168,15 @@
             "branch": "master",
             "version": "5.2",
             "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
+        }
+    },
+    "squizlabs/php_codesniffer": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "0dc9cceda799fd3a08b96987e176a261028a3709"
         }
     },
     "stof/doctrine-extensions-bundle": {
@@ -427,6 +457,9 @@
     },
     "symfony/yaml": {
         "version": "v4.1.7"
+    },
+    "theseer/fdomdocument": {
+        "version": "1.6.6"
     },
     "twig/twig": {
         "version": "v2.5.0"
