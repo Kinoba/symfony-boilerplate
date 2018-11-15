@@ -17,7 +17,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-$ git clone https://github.com/Kinoba/symfony-boilerplate myproject
+$ git clone https://github.com/Kinoba/symfony-vuejs-boilerplate myproject
 $ cd myproject
 $ git remote rm origin
 ```
