@@ -5,3 +5,5 @@ fos_user:
     from_email:
         address: '%env(resolve:MAILER_USER)%'
         sender_name: '%env(resolve:MAILER_USER)%'
+    service:
+        mailer: fos_user.mailer.twig_swift
