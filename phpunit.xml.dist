@@ -16,6 +16,10 @@
         <env name="SHELL_VERBOSITY" value="-1" />
         <env name="MAILER_USER" value="tribe@kinoba.fr" />
         <!-- define your env variables for the test env here -->
+
+        <!-- ###+ symfony/mailer ### -->
+        <!-- MAILER_DSN=smtp://localhost -->
+        <!-- ###- symfony/mailer ### -->
     </php>
 
     <testsuites>
