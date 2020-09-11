@@ -1,4 +1,5 @@
 {
+    "name": "kinoba/symfony-vuejs-boilerplate",
     "type": "project",
     "license": "proprietary",
     "require": {
